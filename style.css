@@ -395,7 +395,6 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
@@ -983,3 +982,62 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.site-header {
+    grid-area: header;
+  }
+
+  .site-content {
+    grid-area: content;
+  }
+
+  .widget-area {
+    grid-area: sidebar;
+  }
+
+  .site-footer {
+    grid-area: footer;
+  }
+
+  .site {
+	background: #282828;
+	color: #e6e7e8;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+  }
+
+  @media (min-width: 550px) {
+
+	.no-sidebar .site {
+		grid-column-gap: 2em;
+		grid-row-gap: 20px;
+		grid-template-columns: 2fr 4fr;
+		grid-template-areas:
+		  "header  header"
+		  "content content"
+		  "footer footer"
+	  }
+
+    .site {
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+      grid-template-columns: 2fr 4fr;
+      grid-template-areas:
+        "header  header"
+        "sidebar content"
+        "footer footer"
+    }
+
+
+}
+
+
+

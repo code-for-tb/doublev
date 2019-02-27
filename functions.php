@@ -86,6 +86,10 @@ if ( ! function_exists( 'doublev_setup' ) ) :
 		add_theme_support( 'responsive-embeds' );
 
 		// support dark editor styles.
+		add_theme_support( 'dark-editor-style' );
+
+		// ability to add class names to the image wrapper for those elements that offer wide or full-width images.
+		add_theme_support( 'align-wide' );
 	}
 endif;
 add_action( 'after_setup_theme', 'doublev_setup' );
