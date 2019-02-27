@@ -79,6 +79,13 @@ if ( ! function_exists( 'doublev_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+		// allows your theme to add to the default set of core block styles.
+		add_theme_support( 'wp-block-styles' );
+
+		// allows embedded media to retain its aspect ratio.
+		add_theme_support( 'responsive-embeds' );
+
+		// support dark editor styles.
 	}
 endif;
 add_action( 'after_setup_theme', 'doublev_setup' );
