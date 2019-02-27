@@ -1002,8 +1002,7 @@ object {
   .site {
 	background: #282828;
 	color: #e6e7e8;
-    width: 100%;
-    max-width: 1040px;
+    width: 95%;
     margin: 0 auto;
     display: grid;
     grid-row-gap: 10px;
