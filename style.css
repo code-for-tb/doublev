@@ -954,7 +954,7 @@ object {
   }
 
   .site-content {
-    grid-area: content;
+	grid-area: content;
   }
 
   .widget-area {
@@ -966,7 +966,7 @@ object {
   }
 
   .site {
-	background: #282828;
+	background: #D81E41;
 	color: #e6e7e8;
     width: 95%;
     margin: 0 auto;
@@ -1005,12 +1005,28 @@ object {
 }
 
 .home .site {
-	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03160420/a-f-c-s.png') no-repeat;
+	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03104145/34340340_1936039649760503_808412320844742656_n.jpg') no-repeat;
 	background-size: contain;
+	background-color: #D81E41;
+}
+
+.has-vivid-red-background-color.has-vivid-red-background-color{
+	background-color: #D81E41;
 }
 
 .site-branding {
 
+}
+
+.site-main {
+	padding-top: 16em;
+	width: 80%;
+	margin: auto;
+}
+
+.home .has-huge-font-size {
+	font-family: serif;
+	font-weight: 700;
 }
 
 
