@@ -979,7 +979,7 @@ object {
       "footer";
   }
 
-  @media (min-width: 550px) {
+  @media (min-width: 300px) {
 
 	.no-sidebar .site {
 		grid-column-gap: 2em;
@@ -1019,8 +1019,7 @@ object {
 }
 
 .site-main {
-	padding-top: 16em;
-	width: 80%;
+	padding: 16em 3em;
 	margin: auto;
 }
 
