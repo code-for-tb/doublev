@@ -74,10 +74,11 @@ if ( ! function_exists( 'doublev_setup' ) ) :
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
-			'flex-width'  => true,
-			'flex-height' => true,
+			'height'      => 120,
+			'width'       => 300,
+			'flex-width'  => false,
+			'flex-height' => false,
+			'header-text' => array ( 'site-title' ),
 		) );
 		// allows your theme to add to the default set of core block styles.
 		add_theme_support( 'wp-block-styles' );
