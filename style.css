@@ -1007,6 +1007,7 @@ object {
 	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03104145/34340340_1936039649760503_808412320844742656_n.jpg') no-repeat;
 	background-size: contain;
 	background-color: #D81E41;
+	max-width: 1200px;
 }
 
 .has-vivid-red-background-color.has-vivid-red-background-color{
