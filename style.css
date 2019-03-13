@@ -954,6 +954,7 @@ object {
 
   .site-content {
 	grid-area: content;
+	padding: 20px;
   }
 
   .widget-area {
@@ -967,7 +968,6 @@ object {
   .site {
 
 	color: #e6e7e8;
-    padding: 20px;
     margin: 0 auto;
     grid-row-gap: 10px;
     grid-template-areas:
@@ -1044,4 +1044,16 @@ object {
 	font-weight: 700;
 }
 
+.site-footer {
+	background:  #fff url('https://cdn.miklb.com/content/uploads/sites/5/2019/03/12225110/logo_grey.png') no-repeat 0 50%;
+	height: 260px;
+	margin-top: 40px;
+}
 
+.footer-boxes {
+	padding: 2em;
+	margin-left: 45%;
+	display: flex;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+}

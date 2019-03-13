@@ -14,19 +14,24 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+		<div class="footer-boxes">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'doublev' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'doublev' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'doublev' ), 'doublev', '<a href="http://underscores.me/">Code for Tampa Bay</a>' );
-				?>
+			<p>This is an area we need content for. Maybe a secondary nav widget?</p>
+			<ul>
+				<li>One link</li>
+				<li>Two link</li>
+				<li>Three link</li>
+			</ul>
 		</div><!-- .site-info -->
+		<div class="site-info">
+			<p>We also need content for this column. Possibly a widget for social media links?</p>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Instagram</li>
+			</ul>
+		</div><!-- .site-info -->
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
