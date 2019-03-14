@@ -965,7 +965,7 @@ object {
   }
 
   .site {
-	background: #D81E41;
+
 	color: #e6e7e8;
     padding: 20px;
     margin: 0 auto;
@@ -1013,16 +1013,23 @@ object {
 }
 
 .home .site {
-	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03104145/34340340_1936039649760503_808412320844742656_n.jpg') no-repeat;
+	background: #ffffff url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03104145/34340340_1936039649760503_808412320844742656_n.jpg') no-repeat;
 	background-size: contain;
-	background-color: #D81E41;
 	max-width: 1200px;
 }
 
 .has-vivid-red-background-color.has-vivid-red-background-color{
 	background-color: #D81E41;
 }
+.home .wp-block-column {
+	padding:0 3em;
+	color: #000000;
+}
 
+.top-block .wp-block-column:nth-child(2), .bottom-block .wp-block-column:nth-child(1) {
+	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/03/13221108/logo_bg_101.png') no-repeat 50%;
+
+}
 .site-branding {
 
 }
