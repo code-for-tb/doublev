@@ -632,6 +632,10 @@ a:hover, a:active {
 	outline: 0;
 }
 
+.menu-item a, .menu-item a:visited {
+	color: #ffffff;
+}
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -943,12 +947,15 @@ object {
 	display: block;
 }
 
+.home .site-header {
+	background: none;
+}
+
 .site-header {
+	background: #000000;
 	grid-area: header;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-
-
 
   }
 
@@ -1013,7 +1020,7 @@ object {
 }
 
 .home .site {
-	background: #ffffff url('https://cdn.miklb.com/content/uploads/sites/5/2019/02/03104145/34340340_1936039649760503_808412320844742656_n.jpg') no-repeat;
+	background: #ffffff url('https://cdn.miklb.com/content/uploads/sites/5/2019/03/20192330/home_bg.jpg') no-repeat;
 	background-size: contain;
 	max-width: 1200px;
 }
@@ -1050,10 +1057,14 @@ object {
 	margin-top: 40px;
 }
 
-.footer-boxes {
-	padding: 2em;
-	margin-left: 45%;
-	display: flex;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+.top-block, .bottom-block {
+	padding: 0 3em;
+}
+
+.top-block ul, .bottom-block ul {
+	margin-left: 0;
+}
+
+.top-block ul li, .bottom-block ul li {
+	padding-bottom: 1em;
 }
