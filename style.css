@@ -1029,10 +1029,20 @@ object {
 	background-color: #D81E41;
 }
 .home .wp-block-column {
-	padding:0 3em;
 	color: #000000;
 }
 
+.top-block, .bottom-block {
+	padding: 0 3em;
+}
+
+.top-block ul, .bottom-block ul {
+	margin-left: 0;
+}
+
+.top-block ul li, .bottom-block ul li {
+	padding-bottom: 1em;
+}
 .top-block .wp-block-column:nth-child(2), .bottom-block .wp-block-column:nth-child(1) {
 	background: url('https://cdn.miklb.com/content/uploads/sites/5/2019/03/13221108/logo_bg_101.png') no-repeat 50%;
 
@@ -1057,8 +1067,12 @@ object {
 	margin-top: 40px;
 }
 
-.top-block, .bottom-block {
-	padding: 0 3em;
+.footer-boxes {
+	padding: 2em;
+	margin-left: 45%;
+	display: flex;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
 }
 
 .top-block ul, .bottom-block ul {
