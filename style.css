@@ -1022,9 +1022,15 @@ object {
 .home .site {
 	background: #ffffff url('https://cdn.miklb.com/content/uploads/sites/5/2019/03/20192330/home_bg.jpg') no-repeat;
 	background-size: contain;
-	max-width: 1200px;
+
 }
 
+.site {
+	background-color: #ffffff;
+	color: #282828;
+	max-width: 1200px;
+
+}
 .has-vivid-red-background-color.has-vivid-red-background-color{
 	background-color: #D81E41;
 }
