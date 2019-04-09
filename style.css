@@ -825,6 +825,38 @@ a:hover, a:active {
 	margin: 0 0 1.5em;
 }
 
+.entry-header {
+	display: flex;
+	align-content: center; /* center items vertically, in this case */
+	overflow: hidden;
+}
+
+.page-heading {
+	background :#D81E41;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 48%;
+	text-align: center;
+	color: #ffffff;
+}
+
+.entry-title {
+	font-size: 3rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 300;
+}
+
+.page-heading p {
+	font-size: 1.5rem;
+}
+
+.featured-img .post-thumbnail {
+	padding: 0;
+	margin: 0;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1057,7 +1089,7 @@ object {
 
 }
 
-.site-main {
+.home .site-main {
 	padding-top: 16em;
 	margin: auto;
 }

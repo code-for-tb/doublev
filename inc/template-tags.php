@@ -126,8 +126,9 @@ if ( ! function_exists( 'doublev_post_thumbnail' ) ) :
 		if ( is_singular() ) :
 			?>
 
-			<div class="post-thumbnail">
-				<?php the_post_thumbnail(); ?>
+
+			<div class="featured-img post-thumbnail">
+				<?php the_post_thumbnail('medium_large'); ?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>

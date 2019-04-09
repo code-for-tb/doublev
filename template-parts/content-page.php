@@ -11,10 +11,17 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<div class="page-heading">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<p><?php the_subtitle(); ?></p>
+		</div>
+
+		<?php doublev_post_thumbnail(); ?>
+
+
 	</header><!-- .entry-header -->
 
-	<?php doublev_post_thumbnail(); ?>
+
 
 	<div class="entry-content">
 		<?php
